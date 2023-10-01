@@ -1,0 +1,72 @@
+/* Add this CSS rule to set the background image */
+body {
+    background-image: url('background/that.jpg'); /* Adjust the path accordingly */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style for the collapsible tab */
+.collapsible-tab {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.options-column {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ccc;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options-list-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.options-list-item:hover {
+    background-color: #ddd;
+}
+
+.calculator-line {
+    border: none; /* Remove the default border */
+    height: 2px;   /* Set the height of the line */
+    background-color: #000; /* Set the background color to black (#000) */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+.calculator-button {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.radio-label {
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden;    /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display an ellipsis (...) if text overflows */
+    width: 100%;         /* Limit the label's width */
+}
+
+.radio-line {
+    border: none; /* Remove the default border */
+    height: 2px;   /* Set the height of the line */
+    background-color: #00ffff; /* Set the background color to cyan (#00ffff) */
+    margin: 5px 0; /* Add some margin for spacing */
+}
